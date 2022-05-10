@@ -71,7 +71,6 @@ a continuación les dejo un breve borrador con ejemplos, que si completan, tendr
 </p>
 <p>
    Construcción del circuito de prueba, el cual incluye los siguientes materiales </br>
-   2 potenciometros, 3 botones, 3 resistencias y 17 cables dupont
 </p>
 
 ## lista de materiales
@@ -79,10 +78,11 @@ a continuación les dejo un breve borrador con ejemplos, que si completan, tendr
 los materiales son:
 
 * Arduino Uno
-* protoboard
-* cables
-* potenciómetro
-* etc
+* 2 protoboard 
+* 17 cables
+* 2 potenciómetros
+* 3 botones
+* 3 resistencias
 
 ## armado de circuito
 
