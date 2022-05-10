@@ -55,6 +55,7 @@ a continuación les dejo un breve borrador con ejemplos, que si completan, tendr
 <p>Desarrollo de experimentos en Arduino para diferentes aplicaciones basicas</p>
 
 <h2> Telesketch </h2>
+<p>Proceso de desarrollo</p>
 <p>Experimentos de proyecto colaborativo para aud5i022-2022-1 </br>
 <h6> Integrantes </h6>
 <p>
