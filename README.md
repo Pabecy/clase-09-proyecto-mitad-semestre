@@ -59,7 +59,7 @@ a continuación les dejo un breve borrador con ejemplos, que si completan, tendr
 <h6> Integrantes </h6>
 <p>
 - Camila Flores del Rio </br>
-- Paz Castro Yvnes </br>
+- Paz Castro Yevenes </br>
 - Diego Barahona Barahona </br>
 </p>
 </p>
@@ -112,11 +112,12 @@ luego en loop() leemos las entradas y usamos la salida Z para lograr prender una
 
 en este proyecto tuvimos los siguientes aprendizajes: 
 
-* botón pulsador
-* circuito para 
+* crear un repositorio y añadir ediciones de los integrantes del grupo
+* realizar una comunicacion serial entre arduino y p5
+* construir un circuito con los componentes señalados en la lista de materiales
 
-lo más difícil de este proyecto fue bla.
+lo más difícil de este proyecto fue poder coordinar la comunicación entre arduino y p5 para proyectar los datos, además de añadir los recursos html y librerias.
 
-cometimos los siguientes errores durante el armado del circuito y en el código, y los solucionamos así y este error no lo supimos resolver.
+al momento de cargar la pagina para proyectar los datos cometimos el error de no tener en el repositorio las librerias y el archivo html para visualizar los datos en la pestaña.
 
-este proyecto lo vemos como la base para lograr bla, nos hace pensar en bla, y nos gustaría expandirlo para 10 botones y mil luces y diez arduinos conectados por wifi.
+los avances de hoy nos permitirán enviar datos desde arduino hacia p5 para utilizarlos como parametros gráficos y poder dibujar en el navegador.
