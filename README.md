@@ -125,7 +125,7 @@ Siguiente para almacenar valores, creamos variables tipo enteras de nombres *int
 
 Comenzando en setup() iniciamos la comunicación serial con 9600 y definimos los pines Pulsadores 1,2,3 como entradas digitales.
 
-Luego en loop() leemos las entradas digitales y analogas, y finalizamos imprimiendo los valores en el orden de: </br>
+Luego en loop() leemos las entradas digitales y analogas, finalizando imprimiendo los valores en el orden de: </br>
 valorpulsador1, valorpulsador2, valorpulsador3/ valorPotenciometro1 , valorPotenciometro2
 
 Posterior a esta prueba logrando conectar el circuito con el codigo utilizamos p5.serialcontrol para conectar la lectura de datos a el navegador a través del codigo [sketch.js](https://github.com/Pabecy/clase-09-proyecto-mitad-semestre/blob/main/codigo_arduino/sketch.js) el cual solo se modifico el nombre de puerto a "COM3" puerto donde estaba nuestro Arduino Uno.
