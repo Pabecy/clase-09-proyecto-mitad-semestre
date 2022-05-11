@@ -49,60 +49,121 @@ para incluir imágenes que sean visibles en este documento, es igual que un enla
 
 a continuación les dejo un breve borrador con ejemplos, que si completan, tendrán todos los puntos de la pauta, suerte!
 
-## acerca de
 
-<h1> Experimentos </h1>
-<p>Desarrollo de experimentos en Arduino para diferentes aplicaciones basicas</p>
+# Acerca del Proyecto
+El Proyecto se trata de elaborar un "telesketch" o "pizarra magica" a través de los contenidos vistos en clases.
+la elaboración conecta la placa arduino con su respectivo codigo y a través de comunicación serial se conecta al navegador por p5.serialcontrol permitiendo utilizar el navegador como "pizarra"
 
-<h2> Telesketch </h2>
-<p>Proceso de desarrollo</p>
-<p> Etapa_1: Prueba del codigo <b> ej_01_arduino_envia_pulsador_potenciometro </b> modificado en software arduino.</br>
-Etapa_2: Construcción del circuito con los componentes electronicos teniendo en cuenta la facilidad de uso y lectura del circuito (orden de componentes y colores de cables)</br>
-Etapa_3: Prueba del circuito y el codigo por medio del monitor serial de arduino. </br>
-Etapa_4: Conexión de circuito con el codigo arduino y p5, monitor serial web.
-</p>
-<p> Experimentos de proyecto colaborativo para aud5i022-2022-1 </br>
-<h6> Integrantes </h6>
+## Que es un Telesketch
+Telesketch o Sketch es un juguete inventado en 1959 por el francés André Cassagnes (23 de septiembre de 1926 – 16 de enero de 2013) y que fue comercializado por primera vez en Estados Unidos con el nombre de Etch-A-Sketch por Ohio Art Company en 1960 y en España por Borrás. Cassagnes, quien lo llamó originalmente "la Pantalla Mágica", falleció en enero de 2013.
+
+El Telesketch es una versión muy simplificada de un plotter. La superficie interior de la pantalla está recubierta de polvo de aluminio y partículas de estireno en la que una punta metálica móvil traza surcos, dibujando una línea negra en la pantalla gris. La punta metálica se controla por dos mandos giratorios: uno la mueve verticalmente y otro horizontalmente. Para borrar el dibujo sólo hay que ponerlo boca abajo y agitarlo para que el aluminio y el estireno vuelvan a recubrir la superficie.
+
+## Integrantes
 <p>
 - Camila Flores del Rio </br>
 - Paz Castro Yevenes </br>
 - Diego Barahona Barahona </br>
 </p>
-</p>
 
-<h2> Avances clase 10/05/2022 </h2>
+## Comenzando el Proyecto
+Debido a la complejidad del proyecto dividimos su desarrollo en las siguientes etapas 
 
-<p>Tipeo y modificación del codigo ejemplo hecho por montoyamoraga ej_01_arduino_envia_pulsador_potenciometro </br>
-   basado en Examples/04. Comunication/Virtualcolormixer.
-</p>
+#### I Arduino
+   * Etapa_1: Evaluación y prueba del codigo [ej_01_arduino_envia_pulsador_potenciometro](https://github.com/montoyamoraga/aud5i022-2022-1/blob/main/clases/clase-08/ej_01_arduino_envia_pulsador_potenciometro/ej_01_arduino_envia_pulsador_potenciometro.ino) por [montoyamoraga](https://github.com/montoyamoraga) modificandolo en software arduino para lectura de 2 potenciometros y 3 pulsadores.</br>
+   * Etapa_2: Construcción del circuito con los componentes electronicos teniendo en cuenta la facilidad de uso y lectura del circuito (orden de componentes y colores de cables)</br>
+   * Etapa_3: Prueba del circuito y el codigo por medio del monitor serial de arduino. </br>
+   * Etapa_4: Conexión de circuito con el codigo arduino y p5, monitor serial web.
+      * Testear lectura de datos en navegador con [ejemplo p5js](https://github.com/aud5i022-2022-1/clase-08-ejemplo-p5js-texto/blob/main/sketch.js) en navegador 
+#### II P5js
+   * Edición de codigo [ejemplo p5js](https://github.com/aud5i022-2022-1/clase-08-ejemplo-p5js-texto/blob/main/sketch.js) para utilizar el navegador como pantalla.
+#### III Processing
+   * Crear versión de ejemplo p5js para processing 
+   * Desarrollar archivo para utilizarlo en el pc *consultar al Instructor*
+#### IV Prototipo 1
+   * Establecer piezas y circuito fijo
+   * Modelado 3d de Carcasa
+   * Montaje
+
+## Avances clase 10/05/2022
+
+Tipeo y modificación del codigo ejemplo hecho por [montoyamoraga](https://github.com/montoyamoraga) [ej_01_arduino_envia_pulsador_potenciometro](https://github.com/montoyamoraga/aud5i022-2022-1/blob/main/clases/clase-08/ej_01_arduino_envia_pulsador_potenciometro/ej_01_arduino_envia_pulsador_potenciometro.ino) </br>
+basado en Examples/04. Comunication/Virtualcolormixer.
 <p>
-   Construcción del circuito de prueba, el cual incluye los siguientes materiales </br>
+Construcción del circuito de prueba, el cual incluye los siguientes materiales </br>
 </p>
 
-## lista de materiales
+## Lista de Materiales
 
-los materiales son:
+Los materiales son:
 
 * Arduino Uno
 * 2 protoboard 
 * 17 cables
 * 2 potenciómetros
 * 3 botones
-* 3 resistencias
+* 3 resistencias 10K
 
-## armado de circuito
+## Armado de Circuito
 
-estos son los pasos para armar el circuito.
+Primero debido al poco espacio de la protoboard unimos 2 protoboards quitando un carril de GND y 5V.
 
-primero hacemos X y se ve así.
+![Unión de Protoboards](https://github.com/Pabecy/clase-09-proyecto-mitad-semestre/blob/main/imagenes/Test1/img00.jpeg)
 
-![texto descripción de la foto](imagenes/00-ejemplo.jpg)
+Despues de esto comenzamos a conectar un cable rojo al 5V y un cable negro al GND de nuestro Arduino Uno
 
-después hacemos Y y se ve así.
+![Conexión Tierra/5V al Arduino](https://github.com/Pabecy/clase-09-proyecto-mitad-semestre/blob/main/imagenes/Test1/img00_.jpeg)
 
-![texto descripción de la foto](imagenes/00-ejemplo.jpg)
+Los otros extremos de los cables los conectamos de la siguiente manera rojo(5V) al negativo de la Protoboard y el negro(GND) al positivo.
 
-## código para microcontrolador Arduino
+![Conexión Tierra/5V a la Protoboard](https://github.com/Pabecy/clase-09-proyecto-mitad-semestre/blob/main/imagenes/Test1/img01.jpeg)
+
+En el lado derecho de nuestra Protoboard agregamos 3 pulsadores 
+
+![Agrega Pulsadores](https://github.com/Pabecy/clase-09-proyecto-mitad-semestre/blob/main/imagenes/Test1/img02.jpeg)
+
+Agregamos a cada pulsador en su pata izquierda su respectivo resistor conectado a la linea de alimentacion negativa (5V)
+
+![Agrega Resistores Pulsadores](https://github.com/Pabecy/clase-09-proyecto-mitad-semestre/blob/main/imagenes/Test1/img03.jpeg)
+
+Para agregar la conexión tierra a cada Pulsador conectamos un cable verde en cada uno a la pata derecha y a el carril positivo (GND)
+
+![Agrega Tierra Pulsadores](https://github.com/Pabecy/clase-09-proyecto-mitad-semestre/blob/main/imagenes/Test1/img04.jpeg)
+
+Para la lectura de los pulsadores agregamos en cada pata izquierda un cable azul 
+
+![Agrega Cables lectura](https://github.com/Pabecy/clase-09-proyecto-mitad-semestre/blob/main/imagenes/Test1/img05.jpeg)
+
+Los otros extremos de los cables azules de lectura los conectamos en los pines digitales 6,7,8 y con esto terminamos con los pulsadores.
+
+![Conecta pines6_7_8](https://github.com/Pabecy/clase-09-proyecto-mitad-semestre/blob/main/imagenes/Test1/img06.jpeg)
+
+Ahora fijamos los 2 potenciometros en el carril izquierdo de la Protoboard
+
+![Agrega Potenciometros](https://github.com/Pabecy/clase-09-proyecto-mitad-semestre/blob/main/imagenes/Test1/img08.jpeg)
+
+para conectar los potenciometros los conectamos de la siguiente manera mirandolo desde atras, Cable naranjo para alimentación (5V), cable blanco para lectura Analogica y Cable cafe para tierra (GND).
+![Conecta Potenciometros](https://github.com/Pabecy/clase-09-proyecto-mitad-semestre/blob/main/imagenes/Test1/img09.jpeg)
+
+Conectamos el cable naranjo a la alimentación negativa (5v) del carril central y el cable café a el carril positivo Tierra (GND). Repetimos el paso anterior y este con el otro potenciometro
+![Alimentacion Potenciometros](https://github.com/Pabecy/clase-09-proyecto-mitad-semestre/blob/main/imagenes/Test1/img10.jpeg)
+
+Para la lectura analogica de los potenciometros conectamos los extremos de los cables blancos a los pines A0 y A5 del Arduino Uno
+
+![Lectura analogicaPotenciometros](https://github.com/Pabecy/clase-09-proyecto-mitad-semestre/blob/main/imagenes/Test1/img11.jpeg)
+
+Finalmente nuestro circuito se verá asi
+
+![Circuito Final](https://github.com/Pabecy/clase-09-proyecto-mitad-semestre/blob/main/imagenes/imag3.jpeg)
+
+Aqui en otros Angulos
+![Vista lateral](https://github.com/Pabecy/clase-09-proyecto-mitad-semestre/blob/main/imagenes/imag4.jpeg)
+![Vista Aerea](https://github.com/Pabecy/clase-09-proyecto-mitad-semestre/blob/main/imagenes/imag2.jpeg)
+
+Imagenes del Proceso
+![Proceso 1](https://github.com/Pabecy/clase-09-proyecto-mitad-semestre/blob/main/imagenes/imag1.jpeg)
+
+## Código para microcontrolador Arduino
 
 el código está hecho para Arduino Uno, y está incluido en este repositorio aquí: [codigo_arduino/codigo_arduino.ino](codigo_arduino/codigo_arduino.ino).
 
@@ -114,9 +175,9 @@ primero en setup() hacemos que los pines X e Y sean entradas digitales, el pin Z
 
 luego en loop() leemos las entradas y usamos la salida Z para lograr prender una luz LED.
 
-## conclusiones
+## Conclusiones
 
-en este proyecto tuvimos los siguientes aprendizajes: 
+En este proyecto tuvimos los siguientes aprendizajes: 
 
 * crear un repositorio y añadir ediciones de los integrantes del grupo
 * realizar una comunicacion serial entre arduino y p5
@@ -126,4 +187,4 @@ lo más difícil de este proyecto fue poder coordinar la comunicación entre ard
 
 al momento de cargar la pagina para proyectar los datos cometimos el error de no tener en el repositorio las librerias y el archivo html para visualizar los datos en la pestaña.
 
-los avances de hoy nos permitirán enviar datos desde arduino hacia p5 para utilizarlos como parametros gráficos y poder dibujar en el navegador.
+los avances de hoy nos permitirán enviar datos desde arduino hacia p5 para utilizarlos como parametros gráficos y poder dibujar en el navegador asi seguir desarrollando nuestro proyecto.
