@@ -26,7 +26,7 @@ Debido a la complejidad del proyecto dividimos su desarrollo en las siguientes e
    * Etapa_4: Conexión de circuito con el codigo arduino y p5, monitor serial web.
       * Testear lectura de datos en navegador con [ejemplo p5js](https://github.com/aud5i022-2022-1/clase-08-ejemplo-p5js-texto/blob/main/sketch.js) en navegador 
 #### II P5js
-   * Edición de codigo [ejemplo p5js](https://github.com/aud5i022-2022-1/clase-08-ejemplo-p5js-texto/blob/main/sketch.js) para utilizar el navegador como pantalla.
+   * Edición de codigo [ejemplo p5js elipse](https://github.com/aud5i022-2022-1/clase-08-ejemplo-p5js-elipse) para utilizar el navegador como pantalla.
 #### III Processing
    * Crear versión de ejemplo p5js para processing 
    * Desarrollar archivo para utilizarlo en el pc *consultar al Instructor*
