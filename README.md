@@ -56,7 +56,12 @@ a continuación les dejo un breve borrador con ejemplos, que si completan, tendr
 
 <h2> Telesketch </h2>
 <p>Proceso de desarrollo</p>
-<p>Experimentos de proyecto colaborativo para aud5i022-2022-1 </br>
+<p> Etapa_1: Prueba del codigo <b> ej_01_arduino_envia_pulsador_potenciometro </b> modificado en software arduino.</br>
+Etapa_2: Construcción del circuito con los componentes electronicos teniendo en cuenta la facilidad de uso y lectura del circuito (orden de componentes y colores de cables)</br>
+Etapa_3: Prueba del circuito y el codigo por medio del monitor serial de arduino. </br>
+Etapa_4: Conexión de circuito con el codigo arduino y p5, monitor serial web.
+</p>
+<p> Experimentos de proyecto colaborativo para aud5i022-2022-1 </br>
 <h6> Integrantes </h6>
 <p>
 - Camila Flores del Rio </br>
