@@ -4,7 +4,7 @@
 El Proyecto se trata de elaborar un "telesketch" o "pizarra magica" a través de los contenidos vistos en clases.
 la elaboración conecta la placa arduino con su respectivo codigo y a través de comunicación serial se conecta al navegador por p5.serialcontrol permitiendo utilizar el navegador como "pizarra"
 
-## Que es un Telesketch
+## Qué es un Telesketch
 Telesketch o Sketch es un juguete inventado en 1959 por el francés André Cassagnes (23 de septiembre de 1926 – 16 de enero de 2013) y que fue comercializado por primera vez en Estados Unidos con el nombre de Etch-A-Sketch por Ohio Art Company en 1960 y en España por Borrás. Cassagnes, quien lo llamó originalmente "la Pantalla Mágica", falleció en enero de 2013.
 
 El Telesketch es una versión muy simplificada de un plotter. La superficie interior de la pantalla está recubierta de polvo de aluminio y partículas de estireno en la que una punta metálica móvil traza surcos, dibujando una línea negra en la pantalla gris. La punta metálica se controla por dos mandos giratorios: uno la mueve verticalmente y otro horizontalmente. Para borrar el dibujo sólo hay que ponerlo boca abajo y agitarlo para que el aluminio y el estireno vuelvan a recubrir la superficie.
