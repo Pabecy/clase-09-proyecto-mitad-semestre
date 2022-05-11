@@ -37,7 +37,7 @@ Debido a la complejidad del proyecto dividimos su desarrollo en las siguientes e
 
 ## Avances clase 10/05/2022
 
-Tipeo y modificación del codigo ejemplo hecho por [montoyamoraga](https://github.com/montoyamoraga) [ej_01_arduino_envia_pulsador_potenciometro](https://github.com/montoyamoraga/aud5i022-2022-1/blob/main/clases/clase-08/ej_01_arduino_envia_pulsador_potenciometro/ej_01_arduino_envia_pulsador_potenciometro.ino) </br>
+Tipeo y modificación del codigo [ej_01_arduino_envia_pulsador_potenciometro](https://github.com/montoyamoraga/aud5i022-2022-1/blob/main/clases/clase-08/ej_01_arduino_envia_pulsador_potenciometro/ej_01_arduino_envia_pulsador_potenciometro.ino) hecho por [montoyamoraga](https://github.com/montoyamoraga) </br>
 basado en Examples/04. Comunication/Virtualcolormixer.
 <p>
 Construcción del circuito de prueba, el cual incluye los siguientes materiales </br>
