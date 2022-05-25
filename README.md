@@ -180,7 +180,9 @@ Las conclusiones anteriores fueron posibles gracias a los siguientes links de Yo
 * [Explicación de Arreglo](https://www.youtube.com/watch?v=l-kOjxvgyDQ)
 * [Diagrama de flujo en 2 minutos](https://www.youtube.com/watch?v=u6fusP6JLgg)
 </br>
-*Se calendariza una proxima reunión para 26/05 a las 16:00.*
+
+* *Se calendariza una proxima reunión para 26/05 a las 16:00.*
+
 </br>
 
 ## Avances Reunion 26/05/2022
