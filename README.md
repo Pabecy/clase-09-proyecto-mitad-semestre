@@ -174,8 +174,13 @@ estableciendo las posiciones 0, 1, 2, 3, 4. </br></br>
 
 Al comprender esto pasamos al siguiente paso, pero para poder generar el codigo decidimos analizar el funcionamiento de la pizarra magica y establecer un diagrama para llevarlo al codigo. En este proceso observamos que la pizarra magica no comienza con una posicion en el "canvas" definida, ya que cada vez que borras tu dibujo la posicion queda donde lo dejaste, para definir esto conversamos de la posibilidad de agregar un pulsador que a través de una secuencia, defina la "mejor posición" para el usuario.</br> Por otro lado cambiamos los nombres de los potenciometros a *potenciometroX, potenciometroY* correspondientes al eje en el que se mueva, tambien cambiamos los nombres de los anteriores ya que su funcion será elegir el color de la linea donde quedan así: *pulsadorR* por Rojo *pulsadorG* por verde (green) *pulsadorB* por Azul (Blue) y finalmente deberiamos añadir un cuarto pulsador definido como *pulsadorPosicion* que define en que parte del canvas comienzara el dibujo. Todo esto es tentativo ya que a medida que vayamos evaluando la complejidad iremos viendo si agregamos otro tipo de cosas ya que tambien se converso de utilizar un tercer potenciometro para definir el grosor de linea para el dibujo.</br>
 Vale decir que tenemos muchas cosas por aprender y por ir analizando por ello tambien estamos elaborando un apunte de cada aprendizaje del proceso.
-
-* Se calendariza una proxima reunión para 26/05 a las 16:00.
+</br>
+Las conclusiones anteriores fueron posibles gracias a los siguientes links:
+* [Youtube pizarra hecha en p5js](https://www.youtube.com/watch?v=2nlrjzLU2qE)
+* [Explicación de Arreglo](https://www.youtube.com/watch?v=l-kOjxvgyDQ)
+* [Diagrama de flujo en 2 minutos](https://www.youtube.com/watch?v=u6fusP6JLgg)
+</br>
+* *Se calendariza una proxima reunión para 26/05 a las 16:00.*
 </br>
 
 ## Avances Reunion 26/05/2022
