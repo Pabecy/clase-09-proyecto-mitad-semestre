@@ -35,7 +35,7 @@ Debido a la complejidad del proyecto dividimos su desarrollo en las siguientes e
    * Modelado 3d de Carcasa
    * Montaje
 
-## Avances clase 10/05/2022
+# Avances clase 10/05/2022
 
 Tipeo y modificación del codigo [ej_01_arduino_envia_pulsador_potenciometro](https://github.com/montoyamoraga/aud5i022-2022-1/blob/main/clases/clase-08/ej_01_arduino_envia_pulsador_potenciometro/ej_01_arduino_envia_pulsador_potenciometro.ino) hecho por [montoyamoraga](https://github.com/montoyamoraga) </br>
 basado en Examples/04. Comunication/Virtualcolormixer.
@@ -152,3 +152,33 @@ En esta etapa: **I Arduino** de proyecto tuvimos los siguientes aprendizajes:
 Lo más difícil de la primera etapa del proyecto fue poder coordinar la comunicación entre arduino y p5 para proyectar los datos, además de añadir los recursos html y librerias, al momento de cargar la pagina para proyectar los datos cometimos el error de no tener en el repositorio las librerias y el archivo index.html para visualizar los datos en la pestaña.
 
 Los avances de hoy nos permitirán enviar datos desde arduino hacia p5 para utilizarlos como parametros gráficos y poder dibujar en el navegador, de esta forma seguir desarrollando la siguiente etapa en nuestro proyecto.
+
+## Avances Reunion 24/05/2022
+
+Primero repasamos los archivos de lo anterior y conversamos la posibilidad de hacer un drive para compartirnos la información y generar apuntes para recordar los contenidos pasados. </br>
+Posterior a esto dimos inicio a la etapa **II P5JS** de nuestro proyecto, empezamos a analizar el codigo de [ejemplo p5js elipse](https://github.com/aud5i022-2022-1/clase-08-ejemplo-p5js-elipse/blob/main/sketch.js) de la clase 08 de [aud5i022-2022-1](https://github.com/montoyamoraga/aud5i022-2022-1). A través del análisis de entrada de datos, nos dimos cuenta que al declarar *let datosSeparados* el codigo esta definiendo un *"arreglo"* lo cual no sabiamos a que se referia y a partir de una pequeña busqueda entendimos que se referia a una entrada de datos ordenados con posiciones definidas, algo asi: </br>
+| pulsador | poteciometro |
+|:--|:--|
+| 0 | 1 |
+</br>
+
+Siendo 0, 1 los que demarcan la posicion y pulsador con potenciometro variables a guardar.
+Aqui nos dimos cuenta que a partir de nuestro experimento anterior contamos con 5 variables lo cual definiria eventualmente la lectura de la siguiente forma:</br>
+*let datosSeparados[0,0,0,0,0]* </br>
+
+|pulsador1|pulsador2|pulsador3|potenciometro1|potenciometro2|
+|:--------|:--------|:--------|:-------------|:-------------|
+|0|1|2|3|4|
+</br>
+estableciendo las posiciones 0, 1, 2, 3, 4. </br></br>
+
+Al comprender esto pasamos al siguiente paso, pero para poder generar el codigo decidimos analizar el funcionamiento de la pizarra magica y establecer un diagrama para llevarlo al codigo. En este proceso observamos que la pizarra magica no comienza con una posicion en el "canvas" definida, ya que cada vez que borras tu dibujo la posicion queda donde lo dejaste, para definir esto conversamos de la posibilidad de agregar un pulsador que a través de una secuencia, defina la "mejor posición" para el usuario.</br> Por otro lado cambiamos los nombres de los potenciometros a *potenciometroX, potenciometroY* correspondientes al eje en el que se mueva, tambien cambiamos los nombres de los anteriores ya que su funcion será elegir el color de la linea donde quedan así: *pulsadorR* por Rojo *pulsadorG* por verde (green) *pulsadorB* por Azul (Blue) y finalmente deberiamos añadir un cuarto pulsador definido como *pulsadorPosicion* que define en que parte del canvas comienzara el dibujo. Todo esto es tentativo ya que a medida que vayamos evaluando la complejidad iremos viendo si agregamos otro tipo de cosas ya que tambien se converso de utilizar un tercer potenciometro para definir el grosor de linea para el dibujo.</br>
+Vale decir que tenemos muchas cosas por aprender y por ir analizando por ello tambien estamos elaborando un apunte de cada aprendizaje del proceso.
+
+* Se calendariza una proxima reunión para 26/05 a las 16:00.
+</br>
+
+## Avances Reunion 26/05/2022
+
+
+
