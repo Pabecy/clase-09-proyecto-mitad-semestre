@@ -166,9 +166,9 @@ Siendo 0, 1 los que demarcan la posicion y pulsador con potenciometro variables 
 Aqui nos dimos cuenta que a partir de nuestro experimento anterior contamos con 5 variables lo cual definiria eventualmente la lectura de la siguiente forma:</br>
 *let datosSeparados[0,0,0,0,0]* </br>
 
-|pulsador1|pulsador2|pulsador3|potenciometro1|potenciometro2|
-|:--------|:--------|:--------|:-------------|:-------------|
-|0|1|2|3|4|
+|pulsadorP|pulsadorR|pulsadorG|pulsadorB|potenciometro1|potenciometro2|
+|:--------|:--------|:--------|:--------|:-------------|:-------------|
+|0|1|2|3|4|5|
 </br>
 estableciendo las posiciones 0, 1, 2, 3, 4. </br></br>
 
