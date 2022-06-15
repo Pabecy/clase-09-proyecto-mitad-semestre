@@ -185,7 +185,9 @@ Las conclusiones anteriores fueron posibles gracias a los siguientes links de Yo
 
 </br>
 
-## Avances Reunion 26/05/2022
+#### Avances Reunion 26/05/2022
+
+En esta reunión logramos finalmente separar los datos, para eso declaramos nuevas variables enteras para identificarlas e imprimirlas en pantalla en orden.
 
 
 
